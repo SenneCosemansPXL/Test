@@ -1,0 +1,36 @@
+body{
+    background-color: #151c28;
+}
+
+h1{
+    color: #ffe14f;
+    display: block;
+    text-align: center;
+    font-size: 75px;
+    margin: unset;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
+article{
+    display: block;
+    border-radius: 20px;
+    border: 5px solid white;
+    width: 35%;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+}
+
+article:hover{
+    background-color: #8daec6;
+    transition: ease 500ms;
+}
+
+article:not(:hover){
+    transition: ease 1000ms;
+    background-color: inherit;
+}

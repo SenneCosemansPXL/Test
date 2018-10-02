@@ -1,0 +1,50 @@
+body{
+    background-color: #c7ced8;
+    font-family: "Roboto", sans-serif;
+}
+
+table{
+    width: 47%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    background-color: #27426d;
+    color: white;
+    margin: 0 auto 0 auto;
+
+}
+
+th{
+    text-align: center;
+    height: 40px;
+}
+
+td{
+    text-align: center;
+    height: 40px;
+}
+
+tbody:first-child{
+    width: 40%;
+}
+
+
+
+td:first-child{
+    font-weight: bold;
+}
+
+tr:nth-child(3){
+    background-color: #4f8cef;
+}
+
+tr:nth-child(5){
+    background-color: #4f8cef;
+}
+
+tr:nth-child(4){
+    background-color: #6facff;
+}
+
+tr:nth-child(6){
+    background-color: #6facff;
+}
